@@ -1,0 +1,1 @@
+var code = editor.getValue();

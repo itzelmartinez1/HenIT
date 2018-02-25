@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <script>
+     var code = editor.getValue();
+     console.log(code)
+  </script>
+<!-- Fuck -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="row-sm-4">
+        <div class="col-sm-4"><h1>
+        Tutorial Here </h1>  
+
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor enim varius ipsum facilisis, eu tincidunt tellus finibus. Pellentesque viverra diam ac urna vehicula, a imperdiet ex accumsan. Fusce sed massa ut justo fermentum sagittis. Vestibulum at faucibus massa, a bibendum purus. Sed id odio consequat, varius tellus vel, sodales magna. Aliquam quam enim, suscipit nec ipsum vel, venenatis pharetra libero. Nullam consequat erat felis, ac finibus ante placerat eget. Etiam fermentum venenatis ex id dictum. Pellentesque nec arcu interdum, fermentum purus vitae, condimentum dolor. Suspendisse ullamcorper nibh eu commodo vestibulum. Etiam sagittis luctus sagittis. Vivamus et tristique elit, in consectetur nisl. Suspendisse hendrerit imperdiet faucibus. Aliquam elementum ut ipsum non tincidunt.
+        
+        Vivamus porta augue a justo condimentum scelerisque. Aenean convallis lorem eu lectus molestie tincidunt. Integer quis lectus ut urna pellentesque laoreet ut vel sapien. Morbi faucibus vel dui non bibendum. In ligula felis, sodales quis ligula eget, luctus porta dolor. Nam mattis volutpat nisi vel fermentum. Maecenas tempor dolor pellentesque, ultrices leo eget, commodo metus. Aenean at sem eget velit sagittis venenatis. Fusce a gravida mi. Phasellus pellentesque nulla ut lectus volutpat, a porta nisl accumsan. Nulla efficitur, diam at molestie lacinia, ante turpis malesuada purus, nec posuere velit ex ac mauris.
+        
+        Vestibulum eros libero, accumsan eget sodales a, egestas sit amet nisi. Etiam id ullamcorper nisl. Maecenas egestas urna quis elementum pellentesque. Praesent ante ante, ornare in erat at, consectetur fermentum tellus. Suspendisse posuere dolor ac massa pellentesque, id rhoncus mi semper. Cras finibus purus vel arcu malesuada finibus. Suspendisse viverra neque at sollicitudin rhoncus. Donec tempor nulla vitae velit suscipit, a rhoncus purus tristique. Suspendisse feugiat risus non maximus pellentesque. Nunc lacinia quam est, quis dictum ipsum bibendum in. Mauris scelerisque odio quis enim consectetur finibus. Curabitur a tortor est. Duis sollicitudin tortor id magna malesuada, et molestie sem gravida.
+        
+        Suspendisse fringilla fringilla ipsum nec pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec et vulputate dolor, quis vulputate ante. Integer congue bibendum mollis. Quisque posuere ut velit eget venenatis. Aliquam in fringilla quam, at maximus enim. Aliquam luctus at justo quis vehicula.
+        
+        Sed quis tellus eu elit rutrum gravida vel tempor nunc. Pellentesque sit amet nulla tincidunt, semper ante sed, dignissim sem. Nulla convallis sagittis tempor. Cras iaculis ac lectus ac condimentum. Nulla finibus scelerisque nunc, nec varius lorem egestas eget. Duis a fermentum purus. Curabitur non leo scelerisque, pulvinar risus sed, cursus nisl. Nam vel tortor id lorem accumsan molestie. Nunc volutpat nibh in dolor pretium porttitor. Mauris dolor urna, porttitor ut consectetur a, semper a odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam magna, ultrices in odio vel, vestibulum aliquet felis.
+      
+
+
+        </div>
+        <div class="col-sm-7">Here is another column
+            <style type="text/css" media="screen">
+              #editor { 
+                  position: relative;
+                  height: 500px;
+                  
+              }
+          </style>
+
+
+            <div id="editor">function foo(items) {
+                var x = "All this is syntax highlighted";
+                return x;
+            }</div>
+                
+            
+            <!-- Script source is in src folder -->
+            <script src="/src/ace.js" type="text/javascript" charset="utf-8"></script>
+            <script>
+                var editor = ace.edit("editor");
+                editor.setTheme("ace/theme/monokai");
+                editor.session.setMode("ace/mode/javascript");
+            </script>
+
+
+
+        </div>
+      </div>
+
+  </div>
+
+      </body>
+      </html>
